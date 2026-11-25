@@ -654,3 +654,7 @@ WITH INIT,
      NAME = 'NovaStoreDB Final Full Backup';
 GO
 
+RESTORE VERIFYONLY
+FROM DISK = 'C:\Program Files\Microsoft SQL Server\MSSQL17.SQLEXPRESS\MSSQL\Backup\NovaStoreDB_Final.bak';
+GO
+
